@@ -10,7 +10,7 @@ import javax.persistence.ManyToMany;
 public class Service{
 	
     private int id;
-	private String name;
+    private String name;
     private Set<Customer> customers = new HashSet<Customer>();
      
     @Id
@@ -42,6 +42,6 @@ public class Service{
      
     public String toString()
     {
-        return "Service£º"+this.name +",Id£º"+this.id;
+        return "ServiceÂ£Âº"+this.name +",IdÂ£Âº"+this.id;
     }
 }
